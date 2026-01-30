@@ -45,7 +45,7 @@ public class Main extends JFrame {
         textoSalario = new JTextField();
         panelFormulario.add(textoSalario);
 
-        panelFormulario.add(new JLabel("Fecha Fin Contrato:"));
+        panelFormulario.add(new JLabel("Fecha Fin Contrato (Año-Mes-Dia):"));
         textoFechaFinC = new JTextField();
         panelFormulario.add(textoFechaFinC);
 
