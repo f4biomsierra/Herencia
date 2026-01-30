@@ -30,7 +30,7 @@ public class Main extends JFrame {
         JPanel panelFormulario = new JPanel(new GridLayout(8, 2, 5, 5));
 
         panelFormulario.add(new JLabel("Tipo:"));
-        TipoEmpleado = new JComboBox<>(new String[]{"Estándar", "Temporal", "Ventas"});
+        TipoEmpleado = new JComboBox<>(new String[]{"estandar", "temporal", "ventas"});
         panelFormulario.add(TipoEmpleado);
 
         panelFormulario.add(new JLabel("Código:"));

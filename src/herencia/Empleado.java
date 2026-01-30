@@ -37,6 +37,6 @@ public class Empleado {
     }
     
     public String mostrarInformacion(){
-         return String.format("ID: "+codigo+ " Nombre: "+nombreEmpleado+" Fecha de Contratacion: "+fechaContratacion.toString());
+         return String.format("ID: "+codigo+ " | Nombre: "+nombreEmpleado+" | Fecha de Contratacion: "+fechaContratacion.toString());
     }
 }
