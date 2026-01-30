@@ -7,10 +7,7 @@ package herencia;
 
 import java.time.LocalDate;
         
-/**
- *
- * @author Fabio Sierra
- */
+
 public class Empleado {
     protected String codigo;
     protected String nombreEmpleado;
